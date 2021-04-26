@@ -1,0 +1,149 @@
+html {
+    width: 60%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    background-color: #FFFFFF;
+}
+a:link:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+    cursor: hand;
+}
+input[type=submit], button {
+    cursor: pointer;
+    cursor: hand;
+}
+@media(max-width: 900px) {
+    html {
+        font-size: 14px !important;
+        width: 80% !important;
+    }
+}
+@media(max-width: 480px) {
+    html {
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+}
+@media(max-width: 320px) {
+    html {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+}
+
+.flp .flp-table{
+    max-height: 150px;
+    overflow: scroll;
+}
+
+.flp .flp-table table{
+    overflow: scroll;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.gpxvp .gpx-table{
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.gpxvp .gpx-table table{
+    overflow: scroll;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.fp-table{
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.fp-table table{
+    overflow: scroll;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.q1-table{
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.q1-table table{
+    overflow: scroll;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.q2-table{
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.q2-table table{
+    overflow: scroll;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.q3-table{
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.q3-table table{
+    overflow: scroll;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.q4-table{
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.q4-table table{
+    overflow: scroll;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.q5-table{
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.q5-table table{
+    overflow: scroll;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+th{
+    text-align: center;
+}
